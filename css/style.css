@@ -53,12 +53,22 @@ border-right: 5px solid black;
 
 #main-doc{
     float: right;
-    background-color: brown;
+    background-color: white;
     width: 80%;
     
     padding: 45px;
 }
 
+.main-section header{
+    font-size: 35px;
+    font-style: bold;
+}
+
 .main-section ul{
     margin-left: 100px;
+}
+code{
+    background-color: lightgray;
+    border: 0px;
+    height: 100px;
 }
