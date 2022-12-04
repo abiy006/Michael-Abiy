@@ -55,6 +55,8 @@ border-right: 5px solid black;
     float: right;
     background-color: brown;
     width: 80%;
+    
+    padding: 45px;
 }
 
 .main-section ul{
