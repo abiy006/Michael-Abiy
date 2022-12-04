@@ -3,11 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
-#navbar{
-float: left;
-padding-top: 0%;
-
+body{
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+#navbar{
+
+float: left;
+display: flex;
+flex-direction: column;
+background-color: white
+width: 20%;
+border-right: 5px solid black;
+}
+
+#navbar header{
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    background-color: white;
+}
+
+#navbar ul{
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+#navbar ul li{
+    
+    height: 50px;
+    border-top: 1px solid black;
+}
+
+#navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: black;
+}
+
 #main-doc{
     float: right;
+    background-color: brown;
+    width: 80%;
+}
+
+.main-section ul{
+    margin-left: 100px;
 }
